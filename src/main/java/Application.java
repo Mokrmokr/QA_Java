@@ -62,7 +62,7 @@ public class Application {
                     }
                     break;
                 case EXIT:
-                    System.out.println("Заверешение работы (играет спокойная музыка)");
+                    System.out.println("Заврешение работы (играет спокойная музыка)");
                     System.exit(0);
                     break;
             }
