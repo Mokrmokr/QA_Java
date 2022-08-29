@@ -62,11 +62,9 @@ public class Application {
                     }
                     break;
                 case EXIT:
-                    System.out.println("Выключение. (играет спокойная музыка)");
+                    System.out.println("Заверешение работы (играет спокойная музыка)");
                     System.exit(0);
                     break;
-//                default:
-//                    System.out.println("Данная команда не поддерживается! Используйте команды add, list или exit.");
             }
         }
     }

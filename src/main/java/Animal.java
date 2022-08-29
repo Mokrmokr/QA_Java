@@ -62,10 +62,10 @@ public class Animal {
 
     @Override
     public String toString() {
-        String str = null;
-        if (age == 1 || age % 10 == 1 & age != 11) {
+        String str;
+        if (age % 10 == 1 & age != 11) {
             str = "Привет! меня зовут " + name + ", мне " + age + " год, я вешу - " + weight + " кг, мой цвет - " + color;
-        } else if (age % 10 > 1 & age % 10 < 6) {
+        } else if (age % 10 > 1 & age % 10 < 6 & age != 12 & age != 13 & age != 14) {
             str = "Привет! меня зовут " + name + ", мне " + age + " года, я вешу - " + weight + " кг, мой цвет - " + color;
         } else {
             str = "Привет! меня зовут " + name + ", мне " + age + " лет, я вешу - " + weight + " кг, мой цвет - " + color;
